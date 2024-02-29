@@ -25,12 +25,8 @@ def save_data(db=db):
   with open(DATA_FILE, 'w') as f:
       json.dump(db, f, indent=4)
     
-# beta testing on ester ROM's server
-request_channel = 1212473969043578921
-request_guilds = [1154485858142003220]
-#ester devs id's:
-#request_channel = 1195446572700405893
-#request_guilds = [1144953241919033424]
+request_channel = INSERT_REQUESTS_CHANNEL_ID
+request_guilds = [INSERT_GUILD_ID]
 
 pattern = r"\*\*Request for (?P<manufacturer2>[^\s]+) (?P<model2>[^<]+) by <@(?P<user_id>\d+)>\*\*\s+" \
 r"Manufacturer: (?P<manufacturer>[^\s]+)\s+" \
