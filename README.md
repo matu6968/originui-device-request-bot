@@ -55,3 +55,11 @@ Traceback (most recent call last):
 discord.errors.LoginFailure: Improper token has been passed.
 ```
 7. Invite the bot to your server and test it by running main.py in a terminal, you should see a message called like "OriginUI Device Request Bot#5153 is ready and online!" if thats the case congrats, you got the bot to work!
+
+## FAQ
+### Where can i get INSERT_GUILD_ID?
+Right click on the server icon and click "Copy guild ID", if you don't see that option enable developer settings in your account serting by clicking the settings icon near your profile, going into Advanced and enabling Developer Mode.
+### Where can i get INSERT_REQUESTS_CHANNEL_ID?
+Right click on the channel you want to send out the requests (make sure it has permissions to access it, write messages and reaction roles), right click on it and click "Copy channel ID", if you don't see that option enable developer settings in your account serting by clicking the settings icon near your profile, going into Advanced and enabling Developer Mode.
+### Where can i get INSERT_BOT_TOKEN_HERE?
+Go into the Discord Developer Portal, then click on the app you want to be assigned in, click on Bot click on Reset Token, copy the token that it gave out to you and paste it in main.py in the section TOKEN and replace INSERT_BOT_TOKEN_HERE with the actual bot token.
