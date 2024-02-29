@@ -11,6 +11,13 @@ Curently no code since it's unfinished lol.
 	 - **Did a person send wrong device info?** No worries! Let them know with also a click of a button!
 
 > [!NOTE]
-> Requiements of the bot:
+> Requirements of the bot:
 > - Python 3.8 or later as it uses [discord.py](https://discordpy.readthedocs.io/en/stable/#) for handling the requests of the bot.
 > - A writable user directory so that it can save a database of supported devices (the ability to view currently supported devices in DB is coming soon)
+> - A Discord account so that you can... make a bot
+> - Some experience with editing files 
+
+## Planned features for the bot:
+ - Viewing and deleting user submitted supported devices in DB
+ - Viewing the blacklist list and removing blacklisted users
+ - Replying to further review requests (this will be added once viewing user submitted supported devices is added)
