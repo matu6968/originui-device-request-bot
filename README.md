@@ -37,7 +37,7 @@ or by downloading the repo using the Code button and then the ZIP option and ext
 3. If you haven't made a bot, create one in the [Discord Developer Portal](https://discord.com/developers/applications)
 4. Then grab the token in Bot > Token > Reset Token
 5. Copy the token to something (like a notepad, this will come handy later)
-6. Open main.py and edit the string at the top labled TOKEN and it's value INSERT_BOT_TOKEN_HERE with the actual bot token and save it, otherwaise you will see this when running it:
+6. Open main.py and edit the string at the top labled TOKEN and it's value INSERT_BOT_TOKEN_HERE with the actual bot token and also while your at it, edit INSERT_GUILD_ID in request_guilds with the guild ID of your server you gonna invite the bot in, edit INSERT_REQUESTS_CHANNEL_ID in request_channels with the requests channel ID where is it gonna send pending requests in and save it, otherwaise you will see this when running it with a invalid server token:
 ```bash
 Traceback (most recent call last):
   File "/home/esterdev/bot/main.py", line 259, in <module>
