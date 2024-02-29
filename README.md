@@ -37,5 +37,21 @@ or by downloading the repo using the Code button and then the ZIP option and ext
 3. If you haven't made a bot, create one in the [Discord Developer Portal](https://discord.com/developers/applications)
 4. Then grab the token in Bot > Token > Reset Token
 5. Copy the token to something (like a notepad, this will come handy later)
-6. Open main.py and edit the string at the top labled TOKEN and it's value INSERT_BOT_TOKEN_HERE with the actual bot token, otherwaise you will see this when running it: 
-7. Invite the bot to your server and test it by running main.py in a terminal, you should see a message called like "OriginUI Device Request Bot#5153 is ready and online!" if thats the case congrats, you got the bot to work!
+6. Open main.py and edit the string at the top labled TOKEN and it's value INSERT_BOT_TOKEN_HERE with the actual bot token, otherwaise you will see this when running it:
+```bash
+Traceback (most recent call last):
+  File "/home/esterdev/bot/main.py", line 259, in <module>
+    bot.run(token)
+  File "/home/esterdev/.local/lib/python3.10/site-packages/discord/client.py", line 717, in run
+    return future.result()
+  File "/home/esterdev/.local/lib/python3.10/site-packages/discord/client.py", line 696, in runner
+    await self.start(*args, **kwargs)
+  File "/home/esterdev/.local/lib/python3.10/site-packages/discord/client.py", line 659, in start
+    await self.login(token)
+  File "/home/esterdev/.local/lib/python3.10/site-packages/discord/client.py", line 515, in login
+    data = await self.http.static_login(token.strip())
+  File "/home/esterdev/.local/lib/python3.10/site-packages/discord/http.py", line 422, in static_login
+    raise LoginFailure("Improper token has been passed.") from exc
+discord.errors.LoginFailure: Improper token has been passed.
+```
+8. Invite the bot to your server and test it by running main.py in a terminal, you should see a message called like "OriginUI Device Request Bot#5153 is ready and online!" if thats the case congrats, you got the bot to work!
