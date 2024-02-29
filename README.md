@@ -12,5 +12,5 @@ Curently no code since it's unfinished lol.
 
 > [!INFO]
 > Requiements of the bot:
-> - Python 3.8 or later as it uses (discord.py)[https://discordpy.readthedocs.io/en/stable/#] for handling the requests of the bot.
+> - Python 3.8 or later as it uses [discord.py](https://discordpy.readthedocs.io/en/stable/#) for handling the requests of the bot.
 > - A writable user directory so that it can save a database of supported devices (the ability to view currently supported devices in DB is coming soon)
