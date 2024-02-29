@@ -28,11 +28,12 @@ This a device submission bot used in the [ester ROM's server](https://discord.gg
 ```bash
 pip3 install discord dsc-py
 ```
-2. Download the reop by either typing the following:
+2. Download the repo by either typing the following:
 ```bash
 git clone https://github.com/matu6968/origin-device-request-bot
 ```
 or by downloading the repo using the Code button and then the ZIP option and extracting that onto your target.
+
 3. If you haven't made a bot, create one in the [Discord Developer Portal](https://discord.com/developers/applications)
 4. Then grab the token in Bot > Token > Reset Token
 5. Copy the token to something (like a notepad, this will come handy later)
