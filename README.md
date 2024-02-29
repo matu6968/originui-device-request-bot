@@ -3,7 +3,6 @@
 > what's this??? - **Literally** ***everyone***
 
 This a device submission bot used in the [ester ROM's server](https://discord.gg/vYcFc6mYa5) where you can submit a device using slash commands and any updates about the request is sent via a DM.
-Curently no code since it's unfinished lol.
 
 ## Features of the bot:
  - Submitting device requests over slash commands 
@@ -25,8 +24,10 @@ Curently no code since it's unfinished lol.
 > - Some experience with editing files
 
 ## Instructions on setting up the bot
-1. If you haven't made a bot, create one in the [Discord Developer Portal](https://discord.com/developers/applications)
-2. Then grab the token in Bot > Token > Reset Token
-3. Copy the token to something (like a notepad, this will come handy later)
-4. Open main.py and edit the string at the top labled TOKEN and it's value INSERT_BOT_TOKEN_HERE with the actual bot token.
-5. Invite the bot to your server and test it by running main.py in a terminal, you should see a message called like "OriginUI Device Request Bot#5153 is ready and online!" if thats the case congrats! You got the bot to work!
+1. Install the needed stuff on your target by typing ```bash
+pip3 install discord dsc-py```
+2. If you haven't made a bot, create one in the [Discord Developer Portal](https://discord.com/developers/applications)
+3. Then grab the token in Bot > Token > Reset Token
+4. Copy the token to something (like a notepad, this will come handy later)
+5. Open main.py and edit the string at the top labled TOKEN and it's value INSERT_BOT_TOKEN_HERE with the actual bot token, otherwaise you will see this when running it: 
+6. Invite the bot to your server and test it by running main.py in a terminal, you should see a message called like "OriginUI Device Request Bot#5153 is ready and online!" if thats the case congrats, you got the bot to work!
