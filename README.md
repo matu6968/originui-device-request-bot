@@ -24,8 +24,11 @@ This a device submission bot used in the [ester ROM's server](https://discord.gg
 > - Some experience with editing files
 
 ## Instructions on setting up the bot
-1. Install the needed stuff on your target by typing ```bash
-pip3 install discord dsc-py```
+1. Install the needed stuff on your target by typing the following:
+```bash
+pip3 install discord dsc-py
+```
+
 2. If you haven't made a bot, create one in the [Discord Developer Portal](https://discord.com/developers/applications)
 3. Then grab the token in Bot > Token > Reset Token
 4. Copy the token to something (like a notepad, this will come handy later)
