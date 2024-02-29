@@ -23,7 +23,7 @@ Curently no code since it's unfinished lol.
 > - A writable user directory so that it can save a database of supported devices (the ability to view currently supported devices in DB is coming soon)
 > - A Discord account so that you can... make a bot
 > - Some experience with editing files
-> - 
+
 ## Instructions on setting up the bot
 1. If you haven't made a bot, create one in the [Discord Developer Portal](https://discord.com/developers/applications)
 2. Then grab the token in Bot > Token > Reset Token
