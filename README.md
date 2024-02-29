@@ -10,7 +10,7 @@ Curently no code since it's unfinished lol.
 	 - If you ever notice a person with a weird obsession of sending weird device requests, feel free to blacklist them with a click of a button!
 	 - **Did a person send wrong device info?** No worries! Let them know with also a click of a button!
 
-> [!INFO]
+> [!NOTE]
 > Requiements of the bot:
 > - Python 3.8 or later as it uses [discord.py](https://discordpy.readthedocs.io/en/stable/#) for handling the requests of the bot.
 > - A writable user directory so that it can save a database of supported devices (the ability to view currently supported devices in DB is coming soon)
