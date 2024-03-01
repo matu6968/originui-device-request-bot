@@ -30,7 +30,7 @@ pip3 install discord dsc-py
 ```
 2. Download the repo by either typing the following:
 ```bash
-git clone https://github.com/matu6968/origin-device-request-bot
+git clone https://github.com/matu6968/originui-device-request-bot
 ```
 or by downloading the repo using the Code button and then the ZIP option and extracting that onto your target.
 
