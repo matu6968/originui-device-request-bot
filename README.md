@@ -55,7 +55,7 @@ Traceback (most recent call last):
 discord.errors.LoginFailure: Improper token has been passed.
 ```
 7. Invite the bot to your server and test it by running main.py in a terminal, you should see a message called like "OriginUI Device Request Bot#5153 is ready and online!" if thats the case congrats, you got the bot to work!
-8. Test it out by being if you can see the /requestdevice command in your slash commands menu, if you cam see it, then test it out by sending a command however if you don't see it, enable Use Application Commands inside of your channel and role settings.
+8. Test it out by being if you can see the /requestdevice command in your slash commands menu, if you can see it, then test it out by sending a command however if you don't see it, enable Use Application Commands inside of your channel and role settings.
 
 # FAQ
 ### Where can i get INSERT_GUILD_ID?
