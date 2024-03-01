@@ -26,7 +26,7 @@ This a device submission bot used in the [ester ROM's server](https://discord.gg
 ## Instructions on setting up the bot
 1. Install the needed stuff on your target by typing the following:
 ```bash
-pip3 install discord dsc-py
+pip3 install discord dsc-py py-cord
 ```
 2. Download the repo by either typing the following:
 ```bash
