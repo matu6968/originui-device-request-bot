@@ -2,7 +2,7 @@
 
 > what's this??? - **Literally** ***everyone***
 
-This a device submission bot used in the [ester ROM's server](https://discord.gg/vYcFc6mYa5) where you can submit a device using slash commands and any updates about the request is sent via a DM.
+This a device submission bot used in the [esterOS server](https://discord.gg/vYcFc6mYa5) where you can submit a device using slash commands and any updates about the request is sent via a DM.
 
 ## Features of the bot:
  - Submitting device requests over slash commands 
