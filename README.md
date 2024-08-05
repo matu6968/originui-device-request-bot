@@ -1,8 +1,10 @@
 # OriginUi Device Request Bot
 
+## This project is abandoned due to lack of updates and the fact that it isn't being used due to well being buggy.
+
 > what's this??? - **Literally** ***everyone***
 
-This a device submission bot used in the [esterOS server](https://discord.gg/vYcFc6mYa5) where you can submit a device using slash commands and any updates about the request is sent via a DM.
+This a device submission bot (no longer used in the esterOS server due to lack of updates and use) where you can submit a device using slash commands and any updates about the request is sent via a DM.
 
 ## Features of the bot:
  - Submitting device requests over slash commands 
